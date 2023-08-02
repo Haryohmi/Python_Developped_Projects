@@ -1,0 +1,16 @@
+Create Screen
+- screen_size
+- screen-colour
+- screen exit on click
+
+Create
+- Create Moving Paddle
+- Create opposite Paddle
+- Create thee ball and make it move
+- Detect collision with wall and bounce
+- Detect collision with paddle  paddle
+- Detext when paddle misses
+- Scoreboard
+
+
+
