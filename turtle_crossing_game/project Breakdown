@@ -1,0 +1,34 @@
+Instruction
+
+1. A turtle moves forwards when you press the "up key
+    it can only move forwards, not back, left, right
+
+ 2. Cars randomly generated along the y-axis and will
+    move from the right edge of the screen to the left edge
+
+ 3. When the tutle collides with a car, it's game over and everything
+    stops.
+
+Breakdown
+
+Create a turtle
+position it to the centre(0 of x-axis) and lower part(-290 of y-axis) of the screen
+let the screen listen: set one-key fun=move_up, key="UP"✅
+
+Create cars and let car generate randomly
+create car class
+
+create car_move function
+set starting position to constant x-axis(300) and dynamic y-axis from (300 to -300)
+let car move from right to left on x-axis (300 to -300)
+
+create turtle reset & create scoreboard
+when tutle hits y-axis (300), let it goto(original position)
+Level: {num} increase by 1
+and player levels up by time(speed) increased
+
+detect collision with car
+when turtle distance is collides with car; game over
+:- game_on = False
+
+create tutle write (Game over)
