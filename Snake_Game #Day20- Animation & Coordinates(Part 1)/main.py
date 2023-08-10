@@ -46,16 +46,16 @@ while game_on:
 
     # detect collision with wall
     if my_snake.snake_head.xcor() > 280 or my_snake.snake_head.xcor() < -280 or my_snake.snake_head.ycor() > 280 or my_snake.snake_head.ycor() < -280:
-        game_on = False
-        my_score.game_over()
+        my_score.reset_game()
+        my_snake.reset()
 
     # detect collision with the tail:
     for segment in my_snake.my_snake_segments[1:]:
         if my_snake.snake_head.distance(segment) < 10:
-            game_on = False
-            my_score.game_over()
-    # if the head collides with any segment oin the tail:
-    # trigger game_over
+            my_score.reset_game()
+            my_snake.reset()
+    # if the head collides with any segment of the tail:
+
 
 my_screen.exitonclick()
 # to set screen to exist only on click
