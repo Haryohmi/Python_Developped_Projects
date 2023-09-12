@@ -3,4 +3,5 @@ my_values = {
 }
 
 for key in my_values:
+    print(key)
     print(my_values[key])

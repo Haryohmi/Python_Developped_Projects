@@ -2,14 +2,29 @@ turtle (OOP)
 https://docs.python.org/3/library/turtle.html#turtle.write
 pandas (Data analysis)
 https://pandas.pydata.org/docs/reference/series.html#function-application-groupby-window
+material - https://sparkbyexamples.com/pandas/pandas-convert-column-to-int/#:~:text=Convert%20Column%20to%20int%20(Integer,int64%20or%20int%20as%20param.
 
 tkinter(GUI)
 https://docs.python.org/3.11/library/tkinter.html#tkinter.Label
 https://tcl.tk/man/tcl8.6/TkCmd/entry.htm
 https://tkdocs.com/search.html?q=entry
 
+smtpliib library (Email SMTP)
+
+datetime Module (get date and time)
+
 Python
 https://pypi.org/project/pyclip/
+
+Google SMTP Port (module)
+qiiuwzoevziomewb
+
+smtplib.SMTP("smtp.gmail.com", port=587)
+Gmail: smtp.gmail.com
+Hotmail: smtp.live.com
+Outlook: outlook.office365.com
+Yahoo: smtp.mailyahoo.com
+
 
 EXTRAS
 https://colorhunt.co/
