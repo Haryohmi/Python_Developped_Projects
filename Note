@@ -1,5 +1,6 @@
 turtle (OOP)
 https://docs.python.org/3/library/turtle.html#turtle.write
+
 pandas (Data analysis)
 https://pandas.pydata.org/docs/reference/series.html#function-application-groupby-window
 material - https://sparkbyexamples.com/pandas/pandas-convert-column-to-int/#:~:text=Convert%20Column%20to%20int%20(Integer,int64%20or%20int%20as%20param.
@@ -10,20 +11,32 @@ https://tcl.tk/man/tcl8.6/TkCmd/entry.htm
 https://tkdocs.com/search.html?q=entry
 
 smtpliib library (Email SMTP)
-
-datetime Module (get date and time)
-
-Python
-https://pypi.org/project/pyclip/
-
 Google SMTP Port (module)
-qiiuwzoevziomewb
 
 smtplib.SMTP("smtp.gmail.com", port=587)
 Gmail: smtp.gmail.com
 Hotmail: smtp.live.com
 Outlook: outlook.office365.com
 Yahoo: smtp.mailyahoo.com
+
+datetime Module (get date and time)
+
+
+HTTP Status Codes
+https://www.webfx.com/web-development/glossary/http-status-codes/
+
+Python
+https://pypi.org/project/pyclip/
+
+Python on cloud
+https://www.pythonanywhere.com/user/Haryoh/files/home/Haryoh
+
+API
+requests Module (Json() format)
+https://www.latlong.net/ (ISS Location finder)
+https://sunrise-sunset.org/api
+
+
 
 
 EXTRAS
@@ -82,7 +95,13 @@ json.update() - Update
 
 
 
+functions
+split()
+txt = "hello, my name is Peter, I am 26 years old"
 
+x = txt.split(", ")
+
+print(x)
 
 
 
