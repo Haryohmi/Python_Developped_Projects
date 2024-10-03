@@ -4,6 +4,7 @@ var = {
     "USA": "32",
     "Pakistan": "21"
 }
+action = input("Enter action (print/add/remove/query): ").strip().lower()
 
 
 def details(action, add=0, remove=0, query=0):
@@ -46,5 +47,4 @@ def details(action, add=0, remove=0, query=0):
             print(f"{country} doesn't exist.")
 
 if __name__ == '__main__':
-    action = input("Enter action (print/add/remove/query): ").strip().lower()
     details(action)
